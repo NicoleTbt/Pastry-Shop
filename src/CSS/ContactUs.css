@@ -1,0 +1,133 @@
+
+.ContactUs , .popup{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.ContactUs{
+    padding-top: 10%;
+    width:100%;
+    height:600px;
+
+    background-image: url('../images/Supp/CU_BgTest.png');
+    background-size: cover;
+
+}
+
+.Form{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
+   
+    grid-template-areas:
+    "fn fn ln ln"
+    ". pn pn ."
+    ". em em em"
+    "txt txt txt txt"
+    ". . bt bt";
+
+    width:60%;
+    padding:2%;
+
+    background-color: beige;
+    color:rgb(64,4,4);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.FN{
+    grid-area: fn;
+}
+
+.LN{
+    grid-area: ln;
+}
+
+.FN , .LN , .Message{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    justify-self: center;
+}
+
+
+.Email{
+    grid-area: em;
+
+}
+.Phone{
+    grid-area: pn;
+
+}
+.Message{
+    grid-area:txt ;
+
+}
+
+input , textarea , .Subject , button{
+    border-color: rgb(64,4,4);
+    color: rgb(64,4,4);
+ 
+}
+
+input , select{
+    height: 30px;
+}
+
+.Subject{
+    width:50%;
+    font-weight: 600;
+}
+
+.FormBtns{
+    grid-area: bt;
+
+    display: flex;
+    gap:3%;
+    margin:3%;
+    justify-content: center;
+
+    width: 100%;
+    height:40px;
+}
+
+button{
+width:100px;
+font-weight: 600;
+background-color: #dfcaa0;
+
+}
+
+.SendMessage{
+    width:50%;
+    height: 100%;
+    padding: 2%;
+
+    background-color: beige;
+    color:rgb(64,4,4);
+    font-size: 20px;
+
+}
+
+.PersonalInfos{
+    line-height: 2;
+    max-width: 100%;
+    color: rgb(64,4,4);
+    font-weight: 800;
+}
+
+.YMessage{
+line-height: 1.3;
+width:100%;
+}
+
+.popup{
+    text-align: center;
+    font-size: 40px;
+
+    line-height: 2;
+
+}

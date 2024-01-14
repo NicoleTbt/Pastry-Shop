@@ -1,0 +1,125 @@
+.Gallery{
+    
+    flex-wrap:wrap;
+    gap:30;
+    padding-top:7%;
+    margin-bottom: 50px;
+    color: rgb(64,4,4);
+}
+
+.SectionGallery{
+    display:flex;
+    width:75%;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:30px;
+    }
+
+.MainGallery, .Gallery, .GallerySection, .OpenGalleryC{
+display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.MainGallery{
+    width:90%
+}
+
+.BtnC{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.ButtonsStyle{
+    width:200px ;
+    height:40px;
+    font-weight: 900;
+    background-color: beige;
+
+}
+
+.ButtonsStyle:hover{
+    color:white;
+    font-size: 20px;
+}
+
+
+.GallerySection{
+       width:fit-content;
+       padding: 10px;
+       border-width: 2px;
+       border-style: dashed;
+}
+
+.GallerySection:hover{
+    scale:110%
+    
+}
+
+.GallerySectionImg{
+    width:270px;
+    height:330px;
+}
+
+.GallerySectionDesc{
+    font-size:20px;
+    font-weight:bold;
+     margin:10px;
+}
+
+
+.ExpGallStyle
+{
+    display:flex;
+     flex-wrap:wrap;
+     gap:40px;
+      align-items:center;
+       justify-content:center;
+       width:95%;
+       margin:2%
+}
+
+.ExpGallImgStyle{
+    height:300px;
+    width: 220px;
+    object-fit:contain;
+}
+
+.ExpGallImgStyle:hover{
+    scale: 110%;
+}
+
+.OpenGalleryC{
+width:100%;
+background-color:rgba(0, 0, 0, 0.832);
+
+}
+.OpenGalleryBox{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.OpenGalleryBtn{
+font-size: 45px;
+color: white;
+}
+
+.BtnX{
+    margin-left: 0%;
+    color: white;
+    width: 95%;
+    display: flex;
+    justify-content:right;
+}
+
+.OpenGalleryImg{
+    width:415px;
+    height: 530px;
+}
+

@@ -1,0 +1,193 @@
+
+  
+#home{
+padding-top: 70px;
+color: rgb(106, 6, 6);
+}
+
+.homeImg {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    border-width: 0 0 slim 0;
+    border-style: none none dashed none;
+    border-color:rgb(130, 50, 50);
+}
+
+.homeImgDesc {
+    width:50%;
+    font-size: 60px;
+    margin: 40px;
+    line-height: 1.8;
+}
+
+.homeImgImg {
+    width: 50%;
+    height: 35%;
+}
+
+.H2 {
+    background-color: rgb(255,255,255);
+    background: linear-gradient(0deg, #dfcaa0 20%, rgba(255,255,255,1) 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Slogan {
+    font-size: 50px;
+    margin-left: 50px;
+    line-height: 1.5;
+    margin: 30px;
+}
+
+.Chef{
+    margin-top: 40px;
+    display:flex;
+    gap:10%;
+    width:60%;
+}
+
+.chefImg {
+    width: 280px;
+    height: 330px;
+    padding: 5px;
+    background-color: white;
+   border-width: 5px;
+   border-style: double;
+  
+}
+
+.chefDesc{
+    font-size:30px;
+     line-height:1.5;
+      width:50%;
+      
+}
+
+.Schedule{
+    line-height: 1.4;
+}
+
+
+.guide {
+    margin: 60px;
+    font-size: 20px;
+}
+
+.guideFlex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+@keyframes popMapsLogo {
+    from {
+      transform: scale(1.02);
+    }
+    to {
+      transform: scale(0.9);
+    }
+  }
+
+  @keyframes pop {
+    from {
+      transform: translateX(25px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  
+.AUlink{
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(106, 6, 6);
+
+    margin: 5px;;
+
+
+    display: inline-block;
+    animation-name: pop;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+.MapsLogo{
+    width:50px; 
+    height:50px;
+
+    color: rgb(65, 4, 4);
+    
+    animation-name: popMapsLogo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.testimonialC{
+    font-weight: 100;
+
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    background-color:#dfcaa0;
+    padding-bottom: 40px;
+    
+ }
+ .testimonialSlide{
+    display:flex;
+    width:50%;
+    background-color:white;
+}
+
+.testimonialSlideBtn{
+    width:100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgb(255, 255, 210);
+    font-size: x-large;
+}
+ 
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.testimonialReview {
+    width: 80% ;
+    font-size: 23px;
+    line-height: 1.4;
+    padding-top: 30px;
+
+    -webkit-text-stroke: 1px rgb(65, 4, 4);
+    color: #FFFFFF;
+}
+
+.testimonialName {
+    font-size: 27px;
+    margin-bottom: 0;
+}
+
+.testimonialDesc {
+    margin-top: 0;
+}
+
+
+
+

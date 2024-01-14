@@ -1,0 +1,190 @@
+.ABContainer{
+    padding-top: 50px;
+    color:rgb(106, 6, 6);
+}
+
+.AUbg{
+    width:100%;
+    height:500px;
+    background-image: url('../images/AboutUs/AU-Img.jpg');
+    background-size: cover;
+    background-position: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+.Title{
+    margin-top: 0;
+    padding-bottom: 50px;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.IntroC{
+    width:70%;
+     display:flex;
+     flex-direction:column;
+      text-align:center;
+
+      margin: 2%;
+      margin-left: auto;
+      margin-right: auto;
+
+      line-height: 1.6;
+      
+}
+
+.IntroSlogan{
+  font-size:30px;
+   font-weight:bold;
+    margin-bottom:0;
+}
+
+.IntroText{
+    font-size:27px;
+}
+
+.HistoryC{
+    padding: 40px 0px 40px 100px ;
+    background-color:rgb(244, 244, 207);
+}
+
+.HistoryTitle{
+    font-size:25px;
+
+}
+
+.HistoryDesc{
+   font-size:22px; line-height:1.7;
+   width: 60%;
+}
+
+
+.GoalsCTitle{
+    font-size:30px;
+     font-weight:bold;
+     text-align:center;
+     
+}
+
+.GoalsCBox{
+    display:flex;
+    justify-content:space-around;
+}
+
+.GoalBox{
+    display:flex ;
+    flex-direction: column ;
+    justify-content:center;
+     align-items:center;
+     text-align:center;
+     width:300px;
+     height:300px;
+
+     padding: 5px;
+
+}
+
+.GoalImg{
+    width:100px;
+    height:100px;
+}
+
+.GoalTitle{
+  font-size:23px;
+  margin-top:10px; 
+  font-weight:bold;
+}
+
+.GoalDesc{
+    margin:0;
+
+    font-size:23px;
+    line-height: 1.6;
+}
+
+
+.WeOfferC{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+
+    
+}
+
+.WeOfferCBox{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:30px;
+
+    width:80%;
+    margin-top: 30px;
+}
+
+.Section{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    width:fit-content;
+    padding: 5px;
+    border-style:dashed;
+    border-width: 10;
+
+    text-decoration: none;
+    color:rgb(106, 6, 6)
+}
+
+
+.SectionImgContainer{
+   overflow: hidden;
+
+}
+
+.SectionImg{
+    width:270px;
+    height:320px;
+}
+
+.SectionImg:hover{
+    opacity: 0.8;
+
+    transform: scale(1.10);
+    transition: ease-in-out;
+    transition-duration: 0.8s;
+   
+}
+
+
+.SectionTitle{
+    font-size:20;
+    font-weight:bold;
+    margin:10;
+
+}
+
+.PricingC{
+
+    padding: 30px;
+    background-color:rgb(244, 244, 207);
+}
+
+.PricingUl1{
+    width:70%;
+    font-size:18px; 
+    line-height:1.5;
+}
+
+.PricingUl2{
+    width:70%;
+    font-size:18px; 
+    line-height:1.5;
+}
+

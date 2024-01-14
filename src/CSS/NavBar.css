@@ -1,0 +1,66 @@
+.navBar{
+   background-color: #dfcaa0;
+   font-size: 1.2rem;
+   padding-top:30px;
+   text-decoration:none;
+
+   display: flex;
+   position: fixed;
+   z-index: 2;
+   width: 100%;
+   justify-content: space-around;
+}
+
+.logo{
+   width:60px;
+   height: 60px;
+   scale: 200%;
+
+   border-width: thin;
+   border-style:solid;
+   border-radius: 100%;
+   border-color: rgb(65, 4, 4);
+
+   background-color:white;
+}
+
+.logo:hover{
+   scale:220%;
+}
+
+.Icon{
+width:25px;
+height: 25px;
+color:rgb(65, 4, 4);
+}
+
+.Icon:hover{
+   scale:110%;
+ color: white;
+}
+
+.links{
+   width:100px;
+   text-decoration:none; 
+   color: rgb(65, 4, 4);
+   font-weight: 600;
+   display:flex;
+   justify-content: center;
+}
+
+.links.active{
+   scale: 120%;
+   color: white;
+   text-decoration: underline;
+}
+
+.links:hover{
+   scale: 120%;
+  color: white;
+}
+
+.socialsbox{
+   width:100px;
+   display:flex;
+   justify-content: space-around;
+}
